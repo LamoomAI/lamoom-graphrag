@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphrag"
+version = "0.1.0"
+description = ""
+authors = ["Artyom Maisiuk <artyom.majsyuk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyvis = "^0.3.2"
+lamoom = "^0.1.38"
+python-dotenv = "^1.0.1"
+json-repair = "^0.40.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
